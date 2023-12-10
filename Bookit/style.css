@@ -1,0 +1,155 @@
+body{
+margin: 0%;
+padding: 0%;
+
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+text-transform: none;
+color: black;
+
+background-image: url(img/Cloudy\ yellow\ sky\ background.svg);
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.a{
+text-decoration: none;
+color: black;
+}
+
+.main-header{
+width: calc(100%-62%);
+height: 121px;
+padding: 36px, 32px, 36px, 32px;
+
+}
+
+.main-navigation{
+font-size: 24px;
+line-height: 29px;
+color: black;
+align-items: center;
+display: flex;
+}
+
+.site-navigation,
+.user-navigation{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+flex-shrink: 0;
+}
+
+.site-navigation{
+gap: 40px;
+margin: auto;
+}
+
+.main-header-logo{
+display: flex;
+padding: 36px 32px;
+justify-content: space-between;
+align-items: center;
+}
+
+.site-navigation{
+display: flex;
+flex-wrap: wrap;
+width: 1440px;
+}
+
+.site-navigation a{ 
+color: black;
+text-decoration: none;
+}
+
+.name{
+display: flex;
+padding: 25px 270px;
+margin-top: 25px;
+flex-direction: column;
+justify-content: center;
+height: 358px;
+}
+
+.about{
+display: flex;
+height: 405px;
+padding: 25px 270px;
+margin-top: 25px;
+flex-direction: column;
+justify-content: center;
+}
+
+.projects{
+display: flex;
+padding: 25px 165px;
+height: 1566px;
+flex-direction: column;
+align-items: center;
+margin-top: 25px;
+}
+
+.button{
+display: flex;
+width: 202px;
+padding: 10px 35px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+background-color: orange;
+border-radius: 5%;
+}
+
+button:hover {
+  border: 10px orange;
+  color: #3a7999;
+  background: yellow;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+p{
+text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.main-footer{
+display: flex;
+width: calc(100%-306px);
+height: 80px;
+padding: 25px 281px;
+margin-top: 25px;
+flex-direction: column;
+justify-content: center;
+}
